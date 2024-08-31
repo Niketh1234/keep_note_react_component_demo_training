@@ -1,0 +1,61 @@
+<div class="accordian-area">
+  <h2 id="quote">"A note a day keeps forgetfulness at bay..."</h2>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button
+          class="accordion-button"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseOne"
+          aria-expanded="true"
+          aria-controls="collapseOne"
+          style="
+            background-color: #6a1fb4;
+            color: white;
+            font-weight: bold;
+            font-size: 19px;
+          "
+        >
+          Take a Note &nbsp;
+          <i class="bi bi-pencil-square" style="font-weight: bold"></i>
+        </button>
+      </h2>
+      <div
+        id="collapseOne"
+        class="accordion-collapse collapse"
+        data-bs-parent="#accordionExample"
+      >
+        <div class="accordion-body">
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default"
+              >Title</span
+            >
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+              [(ngModel)]="s.title"
+            />
+          </div>
+          <div>
+            <textarea
+              class="form-control"
+              placeholder="Start typing..."
+              style="height: 100px"
+              [(ngModel)]="s.text"
+            ></textarea>
+          </div>
+          <button
+            type="button"
+            class="btn btn-primary done-btn"
+            (click)="addNoteFunction()"
+          >
+            Done
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

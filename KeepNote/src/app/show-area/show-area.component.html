@@ -1,0 +1,16 @@
+<div class="accordian-area">
+  <h2 id="quote">"Your notes, your roadmap to success."</h2>
+  <div class="accordion" id="accordionExample">
+    @for(s of notes;track $index){
+    <div class="card">
+      <h6 class="card-title">
+        {{ s.title }}&nbsp;<i
+          class="bi bi-card-text"
+          style="font-weight: bold"
+        ></i>
+      </h6>
+      <div class="card-body">{{ s.text }}.</div>
+    </div>
+    }
+  </div>
+</div>

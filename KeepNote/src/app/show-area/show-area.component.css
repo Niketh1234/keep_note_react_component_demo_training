@@ -1,0 +1,27 @@
+#quote{
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 700;
+    font-style: normal;
+   }
+
+.accordian-area{
+    margin: auto;
+    margin-top: 30px;
+    width: 90%;
+}
+
+.card{
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+ .card-title{
+    background-color: #6a1fb4;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+ }

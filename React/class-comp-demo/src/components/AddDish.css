@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 20px;
+    margin: auto;
+    height: 50vh;
+}
+
+span {
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+}
+
+#submitButton {
+    width: 20%;
+    margin-top: 20px;
+    transition: transform 0.4s ease;
+}
+
+#submitButton:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+}

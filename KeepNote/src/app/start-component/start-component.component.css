@@ -1,0 +1,39 @@
+ 
+  .container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+  }
+  
+  .main-message {
+    font-size: 6vw;
+    margin: 0;
+    color: #333;
+  }
+  
+  .designer {
+    font-size: 1.5vw;
+    color: #666;
+    margin-top: 20px;
+  }
+
+  h1{
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: bold;
+    font-style: normal;
+  }
+  .container p {
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+    color: grey;
+    font-size: 20px;
+    font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  }
+
+  

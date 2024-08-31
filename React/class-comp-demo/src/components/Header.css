@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    background-color: chocolate;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 20px;
+    padding: 6px;
+
+}
+
+li:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+}
